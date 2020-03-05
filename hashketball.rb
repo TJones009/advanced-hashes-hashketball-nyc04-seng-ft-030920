@@ -264,7 +264,11 @@ def player_with_longest_name
 end
 
 
+## S-Bonus
 
+def super_bonus
+  
+end
 
 
 

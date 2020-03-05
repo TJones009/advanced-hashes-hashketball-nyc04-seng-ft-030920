@@ -2,8 +2,8 @@ require 'pry'
 
 def game_hash
   {
-    :home => {:team_name => "New York Knicks",
-              :colors => ["Orange", "Blue"],
+    :home => {:team_name => "Brooklyn Nets",
+              :colors => ["Black", "White"],
               :players => [
                 {:player_name => "RJ Barrett",
                 :number => 9,

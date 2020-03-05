@@ -233,9 +233,17 @@ end
 
 def winning_team
   tot_points = 0
-  win_team = ""
+  team_winner = ""
   
   game_hash.each do |place, team|
+    team_points = 0
+    team_name = game_hash[place][:team_name]
+    team[:players].each do |player|
+      points = player[:points]
+      team_points += points
+    end
+    team_winner
+    tot_points
   
 end
 

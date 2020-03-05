@@ -187,6 +187,8 @@ def player_stats(players_name)
       if attributes == :players_name
         data.each do |player|
           if player[:players_name] == players_name
+            new_hash = player_delete_if do |k, v|
+              k == :player_name
           end
       end
     end

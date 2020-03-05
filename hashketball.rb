@@ -190,6 +190,7 @@ def player_stats(players_name)
             new_hash = player_delete_if do |k, v|
               k == :player_name
           end
+        end
       end
     end
   end

@@ -25,7 +25,7 @@ def game_hash
                 :blocks => 2,
                 :slam_dunks => 0
                 },
-                {:player_name => "Mitchell Robinson",
+                {:player_name => "Brook Lopez",
                 :number => 23,
                 :shoe => 18,
                 :points => 13,

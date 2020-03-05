@@ -217,6 +217,6 @@ end
 ## BONUS
 
 def most_points_scored
-  return "Ben Gordon"
+  
 end
 

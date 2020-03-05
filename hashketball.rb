@@ -232,7 +232,7 @@ def most_points_scored
 end
 
 def winning_team
-  tot_points = 0
+  overall_points = 0
   team_winner = ""
   
   game_hash.each do |place, team|
@@ -243,7 +243,9 @@ def winning_team
       team_points += points
     end
     team_winner
-    tot_points
+    overall_points = team_name
+  end
+  return team_winner
   
 end
 

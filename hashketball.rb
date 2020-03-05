@@ -266,7 +266,7 @@ end
 
 ## S-Bonus
 
-def long_name_steals_a_ton
+def long_name_steals_a_ton?
   has_most_steals = ""
   most_steals = 0
   

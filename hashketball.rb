@@ -184,7 +184,7 @@ def player_stats(players_name)
   new_hash = {}
   game_hash.each do |place, team|
     team.each do |attributes, data|
-      if attributes == :players_name
+      if attributes == :players
         data.each do |player|
           if player[:players_name] == players_name
             new_hash = player_delete_if do |k, v|

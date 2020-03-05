@@ -275,7 +275,7 @@ def long_name_steals_a_ton
       has_most_steals, most_steals = player[:player_name], player[:steals] if player[:steals] > most_steals
     end
   end
-  return ture
+  return true
 end
 end
 

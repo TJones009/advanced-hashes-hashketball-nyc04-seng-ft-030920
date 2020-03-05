@@ -266,7 +266,7 @@ end
 
 ## S-Bonus
 
-def super_bonus
+def long_name_steals_a_ton
   
 end
 

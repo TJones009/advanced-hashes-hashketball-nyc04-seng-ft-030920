@@ -172,11 +172,13 @@ def player_numbers(team_name)
         if attributes == :players
           data.each do |player|
             nums << player[:number]
+          end
       end
     end
   end
 end
-
+nums
+end
 
 
 
